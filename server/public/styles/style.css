@@ -1,0 +1,39 @@
+
+
+header {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+main {
+  font-family: Arial;
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.boxes, .container, .btn, header {
+  text-align: center;
+}
+
+.container {
+  height: 150px;
+}
+
+.box {
+	width: 10x;
+	height: 10px;
+  max-width: 10px;
+  max-height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  margin: 3px 3px;
+	background-color: grey;
+  display: inline-flex;
+}
+
+.box:hover {
+  background-color: black;
+}
